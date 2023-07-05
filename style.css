@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-color: #4B93BF;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 22px;
+}
+
+.primeirasessao{
+    display: flex;
+    background-color: #E4EEF1;
+    align-items: center;
+    height: 54vh;
+    justify-content: space-evenly;
+}
+
+.primeirasessao div{
+    width: 40vw;
+    color: #0F468C;
+    font-size: 22px;
+}
+
+.primeirasessao img{
+    height: 56vh;
+}
+
+.segundaSessao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4B93BF;
+    color: white;
+    height: 42vh;
+}
+
+h2{
+    word-spacing: 8px;
+    width: 28vw;
+}
+
+.terceiraSessao{
+    background-color: #E4EEF1;
+}
+
+.terceiraSessao figure{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.terceiraSessao img{
+    width: 22vw;
+    height: 55vh;
+}
+
+.grito{
+    position: relative;
+    top: 8px;
+    left: 17px;
+}
+
+footer{
+    display: flex;
+    justify-content:space-around ;
+    background-color: #4B93BF;
+    align-items: center;
+
+}
+
+footer nav{
+    display: flex;
+    width: 20vw;
+    align-items: center;
+}
+
+footer img{
+    width: 6vw;
+}
+
+footer section{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
